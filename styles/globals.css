@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 #gradient-canvas {
-  --gradient-color-1: #f23044;
-  --gradient-color-2: #f2f230;
-  --gradient-color-3: #22d10f;
-  --gradient-color-4: #9d0fd1;
+  --gradient-color-1: #FFD700; /* Warm yellow */
+  --gradient-color-2: #D3D3D3; /*Light gray */
+  --gradient-color-3: #FFB6C1; /*Soft pink */
+  --gradient-color-4: #87CEEB; /*Sky blue */ 
+  background-image: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3));
 }

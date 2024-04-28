@@ -2,26 +2,26 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "MARTIN - your Medical AI",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "MARTIN - your Medical AI",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "MARTIN - is an AI-powered personal assistant ready to answer all your medical questions.",
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: "https://innovative-balance-835822.framer.app",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "MARTIN - your Medical AI",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
-    creator: "@tmeyer_me",
+      "MARTIN - is an AI-powered personal assistant ready to answer all your medical questions.",
+    images: ["https://innovative-balance-835822.framer.app"],
+    creator: "@BenLitvin",
   },
-  metadataBase: new URL("https://demo.useliftoff.com"),
+  metadataBase: new URL("https://innovative-balance-835822.framer.app"),
   themeColor: "#FFF",
 };
 
