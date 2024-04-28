@@ -104,7 +104,7 @@ export default function DemoPage() {
       );
       mediaRecorderRef.current.start();
     }
-  }, [videoEnded, webcamRef, setCapturing, mediaRecorderRef]);
+  },
 
   const handleStartCaptureClick = useCallback(() => {
     const startTimer = document.getElementById("startTimer");
@@ -115,7 +115,7 @@ export default function DemoPage() {
     if (vidRef.current) {
       vidRef.current.play();
     }
-  }, [webcamRef, setCapturing, mediaRecorderRef]);
+  },
 
   const handleDataAvailable = useCallback(
     ({ data }: BlobEvent) => {
@@ -131,7 +131,7 @@ export default function DemoPage() {
       mediaRecorderRef.current.stop();
     }
     setCapturing(false);
-  }, [mediaRecorderRef, webcamRef, setCapturing]);
+  },
 
   useEffect(() => {
     let timer: any = null;
