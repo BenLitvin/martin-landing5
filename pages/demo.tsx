@@ -858,7 +858,7 @@ export default function DemoPage() {
                       <div className="space-y-4">
                         {questions.map((question) => (
                           <RadioGroup.Option
-                            key={question.name}
+                            key={question.name.toString()}
                             value={question}
                             className={({ checked, active }) =>
                               classNames(
